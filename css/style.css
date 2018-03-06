@@ -1,0 +1,27 @@
+#div-votar a img, #ver-resultados a img{
+  -webkit-transition: all .2s ease-in-out;
+  -moz-transition: all .2s ease-in-out;
+  -o-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
+}
+#div-votar:hover a img{
+  width: 55%;
+}
+#ver-resultados:hover a img{
+  width: 55%;
+}
+#candidatos-sec,#resultados-sec{
+  display: none;
+}
+#cand-1,#cand-2,#cand-3,#cand-4{
+  cursor: pointer;
+  -webkit-transition: all 0.5s ease-out;
+ -moz-transition: all 0.5s ease;
+ -ms-transition: all 0.5s ease;
+}
+#cand-1:hover,#cand-2:hover,#cand-3:hover,#cand-4:hover{
+  -webkit-transform: rotate(-5deg);
+ -moz-transform: rotate(-5deg);
+ -ms-transform: rotate(-5deg);
+ transform: rotate(-5deg);
+}

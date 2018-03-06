@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Sistema de Electoral personero</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <section class="container" id="opciones-iniciales">
+    <div class="row">
+      <div class="col-lg-12 my-5">
+        <h1 class="text-center">Sistema de Electoral personero</h1>
+      </div>
+      <div class="col-lg-6 ops-init" id="div-votar">
+        <a href="#1" id="votar">
+          <img src="img/vote-button-md.png" class="mx-auto d-block p-5" alt="votar" width="50%">
+        </a>
+        <h4 class="text-center">Votar</h4>
+      </div>
+      <div class="col-lg-6 ops-init" id="ver-resultados">
+        <a href="#2" id="resultados">
+          <img src="img/icono-resultados.svg" class="mx-auto d-block p-5" alt="resultados" width="50%">
+        </a>
+        <h4 class="text-center">Ver resultados</h4>
+      </div>
+    </div>
+  </section>
+  <section class="container" id="candidatos-sec">
+    <div class="row">
+      <div class="col-lg-3">
+        <img src="img/candidatos/candidato-1.png" class="candidato-op" alt="1" width="100%" id="cand-1">
+        <h4>Nombre Apellidos</h4>
+      </div>
+      <div class="col-lg-3">
+        <img src="img/candidatos/candidato-2.png" class="candidato-op" alt="2" width="100%" id="cand-2">
+        <h4>Nombre Apellidos</h4>
+      </div>
+      <div class="col-lg-3">
+        <img src="img/candidatos/candidato-3.png" class="candidato-op" alt="3" width="100%" id="cand-3">
+        <h4>Nombre Apellidos</h4>
+      </div>
+      <div class="col-lg-3">
+        <img src="img/candidatos/candidato-4.png" class="candidato-op" alt="4" width="100%" id="cand-4">
+        <h4>Nombre Apellidos</h4>
+      </div>
+    </div>
+  </section>
+  <section class="container" id="resultados-sec">
+    <pre id="result"></pre>
+  </section>
+
+  <script src="js/jQuery.js" charset="utf-8"></script>
+  <script src="js/popper.min.js" charset="utf-8"></script>
+  <script src="js/bootstrap.min.js" charset="utf-8"></script>
+  <script src="js/script.js" charset="utf-8"></script>
+</body>
+</html>
